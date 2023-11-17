@@ -1,0 +1,109 @@
+@font-face {
+font-family: "Articulat";
+    src: url('fonte/ArticulatCFHeavy.otf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .9em 9em;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.070);
+    margin-bottom: 4.5em;
+}
+
+#header p {
+    color: #0066ee;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#login {
+    font-family: 'Articulat';
+    color: black;
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+
+#section-comece {
+    display: flex;
+    gap: 4em;
+    padding: .9em 12em;
+    align-items: center;
+}
+
+.section-comece_article h1 {
+    font-family: 'Articulat';
+    font-size: 3.8em;
+    line-height: 63px;
+    color: #212121;
+    margin-bottom: .3em;
+}
+
+.section-comece_article p {
+    line-height: 24px; 
+    font-size: 1.05em;
+    color: rgb(58, 58, 58);
+    margin-bottom: 2em;
+}
+
+#section-comece img {
+    width: 50%;
+}
+
+.section-comece_article a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #0066ee;
+    padding: 1.1em 3.8em;
+    color: white;
+    border-radius: 4px;
+}
+
+.section-comece_article a:hover {
+    background-color: #014fb6;
+    transition: .4s;
+}
+
+#section-registro-alimento {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding: .9em 12em;
+    margin-top: 4.5em;
+}
+
+#section-registro-alimento img {
+    width: 44%;
+}
+
+#section-registro-alimento h2 {
+    font-size: 3.1em;
+    color: #212121;
+    font-family: 'Articulat';
+    line-height: 53px;
+    margin-bottom: .3em;
+}
+
+#section-registro-alimento p {
+    color: rgb(58, 58, 58);
+    line-height: 25px;
+    font-size: .97em;
+    width: 94%;
+}
