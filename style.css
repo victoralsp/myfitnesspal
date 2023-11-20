@@ -52,7 +52,7 @@ font-family: "Articulat";
     font-size: 3.8em;
     line-height: 63px;
     color: #212121;
-    margin-bottom: .3em;
+    margin: .3em 0;
 }
 
 .section-comece_article p {
@@ -107,3 +107,57 @@ font-family: "Articulat";
     font-size: .97em;
     width: 94%;
 }
+
+#section-ferramentas_article {
+    text-align: center;
+    margin-top: 6em;
+}
+
+#section-ferramentas_article h2 {
+    font-size: 3.1em;
+    color: #212121;
+    font-family: 'Articulat';
+    line-height: 53px;
+}
+
+#section-ferramentas_article p {
+    color: rgb(58, 58, 58);
+    line-height: 25px;
+    font-size: .97em;
+    width: 38%;
+    margin: 1em auto;
+}
+
+#ferramentas-metas {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+#ferramentas-metas div {
+    width: 300px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#ferramentas-metas img {
+    padding: 30px;
+    border-radius: 100%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.103);
+}
+
+#ferramentas-metas h3 {
+    font-size: 1.3em;
+    color: #212121;
+    margin-top: 1.7em;
+}
+
+#ferramentas-metas p {
+    color: rgb(58, 58, 58);
+    line-height: 25px;
+    font-size: 1em;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 1.7em;
+}
+
