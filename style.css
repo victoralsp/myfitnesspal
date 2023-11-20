@@ -161,3 +161,101 @@ font-family: "Articulat";
     margin-top: 1.7em;
 }
 
+#section-receitas {
+    text-align: center;
+    margin-top: 6em;
+}
+
+#section-receitas div {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+#section-receitas h2 {
+    font-size: 3.1em;
+    color: #212121;
+    font-family: 'Articulat';
+    line-height: 53px;
+}
+
+#section-receitas p {
+    color: rgb(58, 58, 58);
+    line-height: 25px;
+    font-size: 1em;
+    width: 50%;
+    margin: 1em auto;
+}
+
+#section-receitas img {
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#section-receitas article {
+    margin-top: 2em;
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.200);
+}
+
+#section-receitas article a {
+    text-decoration: none;
+}
+
+#section-receitas article h3 {
+    font-size: 1.1em;
+    width: 85%;
+    text-align: left;
+    padding: 1em .8em 0 1em;
+    color: black;
+}
+
+#section-receitas article p {
+    text-align: left;
+    padding: .6em 1em .8em 1em;
+    margin: 0;
+    width: 100%;
+    font-weight: bold;
+    color: #0066ee;
+}
+#section-conecte {
+    text-align: center;
+    margin-top: 6em;
+}
+#section-conecte h2 {
+    font-size: 3.1em;
+    color: #212121;
+    font-family: 'Articulat';
+    line-height: 53px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#section-conecte p {
+    color: rgb(58, 58, 58);
+    line-height: 25px;
+    font-size: 1em;
+    width: 39%;
+    margin: 1em auto;
+}
+
+#section-conecte img {
+    width: 620px;
+    margin-top: 1.4em;
+}
+
+#footer {
+    text-align: center;
+    background-color: #f6f6f8;
+    padding-top: 1em;
+}
+#footer a {
+        font-family: 'Articulat';
+        color: black;
+        text-transform: uppercase;
+        font-size: .85em;
+        letter-spacing: 1px;
+        text-decoration: none;
+        margin: 0 1em;
+}
