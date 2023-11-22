@@ -11,7 +11,7 @@ font-family: "Articulat";
 }
 
 #header {
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -19,6 +19,14 @@ font-family: "Articulat";
     padding: .9em 9em;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.070);
     margin-bottom: 4.5em;
+}
+
+#header article {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #header p {
@@ -40,6 +48,10 @@ font-family: "Articulat";
     letter-spacing: 1px;
 }
 
+#main {
+    max-width: 1345px;
+    margin: 0 auto;
+}
 #section-comece {
     display: flex;
     gap: 4em;
