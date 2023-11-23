@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
     #header {
         padding: .9em 2em;
     }
@@ -41,17 +41,13 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     #header {
         padding: .9em 2em;
     }
 
     #header article {
         padding: .3em 0;
-    }
-
-    #main {
-
     }
 
     #section-comece {
