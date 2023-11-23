@@ -121,5 +121,195 @@
     #section-conecte p {
         width: 80%;
     }
-
 }
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    #header {
+        padding: .9em 2em;
+    }
+
+    #header article {
+        padding: .6em 0;
+    }
+
+    #header p {
+        font-size: 1.7em;
+    }
+
+    #header a {
+        font-size: 1.1em;
+    }
+
+    #section-comece {
+        flex-direction: column;
+        text-align: center;
+        padding: .9em 2em;
+    }
+
+    .section-comece_article h1 {
+    font-size: 4em;
+    }
+
+    .section-comece_article p {
+        width: 80%;
+        margin: 0 auto 2em;
+    }
+
+    #section-comece img {
+        width: 90%;
+    }
+
+    #section-registro-alimento {
+        flex-direction: column-reverse;
+        padding: .9em 2em;
+        text-align: center;
+    }
+
+    #section-registro-alimento p {
+    margin: 0 auto;
+    }
+    #section-registro-alimento img {
+        width: 90%;
+    }
+
+    #section-ferramentas_article p {
+    width: 75%;
+    }
+
+    #ferramentas-metas div {
+        width: 150px;
+    }
+
+    #section-receitas p {
+    width: 82%;
+    }
+
+    #section-receitas img {
+    width: 170px;
+    }
+    
+    #section-receitas article {
+    width: 170px;
+    }
+
+    #section-receitas article h3 {
+    font-size: 1.17em;
+    width: 90%;
+    }
+
+    #section-conecte h2 {
+    width: 70%;
+    }
+    
+    #section-conecte p {
+    width: 75%;
+    }
+
+    #section-conecte img {
+    width: 80%;
+    margin-top: 2em;
+    }
+
+    #footer a {
+        line-height: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    #header {
+        padding: .9em 2em;
+        margin-bottom: 0;
+    }
+
+    #header article {
+        padding: .5em 0;
+    }
+
+    #header p {
+        font-size: 1.6em;
+    }
+
+    #header a {
+        font-size: 1.1em;
+    }
+
+    #main {
+        padding-top: 75px;
+    }
+
+    #section-comece {
+        flex-direction: column;
+        text-align: left;
+        padding: .9em 1.1em;
+    }
+
+    .section-comece_article h1 {
+        font-size: 2.1em;
+        line-height: 35px;
+        width: 90%;
+    }
+
+    .section-comece_article p {
+        width: 100%;
+    }
+
+    #section-comece img {
+        width: 90%;
+    }
+
+    #section-registro-alimento {
+        flex-direction: column-reverse;
+        padding: .9em 2em;
+        text-align: center;
+    }
+
+    #section-registro-alimento p {
+    margin: 0 auto;
+    }
+    #section-registro-alimento img {
+        width: 90%;
+    }
+
+    #section-ferramentas_article p {
+    width: 75%;
+    }
+
+    #ferramentas-metas div {
+        width: 150px;
+    }
+
+    #section-receitas p {
+    width: 82%;
+    }
+
+    #section-receitas img {
+    width: 170px;
+    }
+    
+    #section-receitas article {
+    width: 170px;
+    }
+
+    #section-receitas article h3 {
+    font-size: 1.17em;
+    width: 90%;
+    }
+
+    #section-conecte h2 {
+    width: 70%;
+    }
+    
+    #section-conecte p {
+    width: 75%;
+    }
+
+    #section-conecte img {
+    width: 80%;
+    margin-top: 2em;
+    }
+
+    #footer a {
+        line-height: 2.5em;
+    }
+}
+
