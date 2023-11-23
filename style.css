@@ -11,7 +11,7 @@ font-family: "Articulat";
 }
 
 #header {
-    /* width: 100%; */
+    width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -19,6 +19,10 @@ font-family: "Articulat";
     padding: .9em 9em;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.070);
     margin-bottom: 4.5em;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
 }
 
 #header article {
@@ -51,6 +55,7 @@ font-family: "Articulat";
 #main {
     max-width: 1345px;
     margin: 0 auto;
+    padding-top: 130px;
 }
 #section-comece {
     display: flex;
@@ -260,7 +265,7 @@ font-family: "Articulat";
 #footer {
     text-align: center;
     background-color: #f6f6f8;
-    padding-top: 1em;
+    padding: 1em;
 }
 #footer a {
         font-family: 'Articulat';
