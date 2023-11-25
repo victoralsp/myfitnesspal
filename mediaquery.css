@@ -179,6 +179,10 @@
     width: 75%;
     }
 
+    #section-ferramentas_article h2 {
+        width: 90%;
+        margin: 0 auto;
+    }
     #ferramentas-metas div {
         width: 150px;
     }
@@ -300,7 +304,6 @@
         width: 97%;
         font-size: .9em;
         line-height: 20px;
-        margin: .5em 0 0 0;
     }
 
     #section-ferramentas_article {
