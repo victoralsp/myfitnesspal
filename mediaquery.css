@@ -84,6 +84,10 @@
     width: 75%;
     }
 
+    #section-ferramentas_article h2 {
+        width: 90%;
+        margin: 0 auto;
+    }
     #ferramentas-metas div {
         width: 220px;
     }
@@ -91,7 +95,6 @@
     #ferramentas-metas img {
         padding: 18px;
     }
-
     
     #ferramentas-metas h3 {
     font-size: 1.1em;
