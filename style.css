@@ -149,6 +149,7 @@ font-family: "Articulat";
     display: flex;
     justify-content: center;
     gap: 2em;
+    margin-bottom: 6em;
 }
 
 #ferramentas-metas div {
@@ -176,6 +177,83 @@ font-family: "Articulat";
     width: 95%;
     margin: 0 auto;
     margin-top: 1.7em;
+}
+
+#calc-imc {
+    /* background-color: #F3F3F5; */
+    text-align: center;
+    margin-top: 5em;
+    width: 750px;
+    height: 332px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.144);
+    border-radius: 70px 10px;
+    /* border: 2px solid #2121212c; */
+    padding: 3em 2em 20em 2em;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#calc-imc h2::before {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #212121;
+    left: 0;
+    right: 0;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#calc-imc h2 {
+    position: relative;
+    font-family: 'Articulat';
+    color: #212121;
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+#calc-imc label {
+    color: #212121;
+    font-size: 1.2em;
+}
+
+#calc-imc input {
+    padding: 10px;
+    margin-top: 1em;
+    border-radius: 50px;
+    margin-left: 15px;
+    border: 1px solid #212121;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.divCalc button {
+    margin-top: 1.5em;
+    padding: 15px;
+    width: 43%;
+    border-radius: 20px 5px;
+    border: none;
+    background-color: #212121;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.divCalc button:hover {
+    background-color: #0066ee;
+    color: white;
+    transition: .2s;
+}
+
+#resultado {
+    color: #212121;
 }
 
 #section-receitas {
