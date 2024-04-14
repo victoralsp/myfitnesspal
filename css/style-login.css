@@ -1,18 +1,37 @@
-#header {
+@font-face {
+    font-family: "Articulat";
+        src: url('../fonte/ArticulatCFHeavy.otf');
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+
+    /* font-family: 'Articulat'; */
+
+
+#header article {
+    display: flex;
     justify-content: center;
-    gap: 40em;
-    padding: 1.3em;
-}
-
-#header p {
-    font-size: 2em;
-}
-
-#entrar a {
-    color: #1943CF;
-    font-size: .9em;
     align-items: center;
-    letter-spacing: 1px;
+    padding: 1.1em;
+    gap: 39em;
+}
+
+#header article a {
+    text-decoration: none;
+    color: #365cda;
+    font-size: .95em;
+}
+
+#header article p {
+    font-family: 'Articulat'; 
+    font-size: 2.2em;
+    color: #0066EE;
 }
 
 .entrar_after::after {
@@ -25,6 +44,27 @@
     margin-bottom: -.3em;
 }
 
-.register {
-    margin-left: -.2em;
+#navbar {
+    padding: .8em;
+    text-align: center;
+    background-color: #0066EE;
 }
+
+#navbar a {
+    text-decoration: none;
+    font-family: 'Articulat';
+    color: white;
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: 1px;
+    padding: 1em;
+}
+
+#navbar a:hover {
+    background-color: #00548B;
+}
+
+#sec-login {
+    text-align: center;
+}
+

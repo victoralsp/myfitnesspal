@@ -4,16 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | MyFitnessPal</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/style-login.css">
+    <link rel="shortcut icon" href="../imagens/logo.jpeg" type="image/jpeg">
 </head>
 <body>
-    <header id="header">
+<header id="header">
+    <article>
         <a href="#"><p>myfitnesspal</p></a>
         <div id="entrar">
             <a href="#" class="entrar_after">Entrar</a>
             <a href="#" class="register">Registre-se</a>
         </div>
-    </header>
+    </article>
+    <nav id="navbar">
+        <a href="#">Alimentos</a>
+        <a href="#">Exercícios</a>
+        <a href="#">Aplicativos</a>
+        <a href="#">Comunidade</a>
+        <a href="#">Blog</a>
+        <a href="#">Premium</a>
+    </nav>
+</header>
+<main id="main">
+    <section id="sec-login">
+        <p>Login de usuário</p>
+        <form>
+            <input type="email" id="email" required placeholder="Endereço de e-mail">
+            <input type="password" id="password" required placeholder="Senha">
+        </form>
+        <a href="#">Esqueceu-se da senha?</a>
+        <input type="button" value="Entrar">
+        <p>Ou</p>
+        <input type="button" value="Continuar com o Google">
+        <input type="button" value="Continuar com o Facebook">
+    </section>
+</main>
+
 </body>
 </html>
