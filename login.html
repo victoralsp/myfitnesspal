@@ -6,6 +6,7 @@
     <title>Login | MyFitnessPal</title>
     <link rel="stylesheet" href="../css/style-login.css">
     <link rel="shortcut icon" href="../imagens/logo.jpeg" type="image/jpeg">
+    <script src="https://kit.fontawesome.com/05ac79b2f0.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <header id="header">
@@ -27,16 +28,16 @@
 </header>
 <main id="main">
     <section id="sec-login">
-        <p>Login de usuário</p>
+        <p class="login">Login de usuário</p>
         <form>
-            <input type="email" id="email" required placeholder="Endereço de e-mail">
-            <input type="password" id="password" required placeholder="Senha">
+            <input type="email" id="email" class="input-login" required placeholder="Endereço de e-mail">
+            <input type="password" id="password" class="input-login" required placeholder="Senha">
         </form>
         <a href="#">Esqueceu-se da senha?</a>
-        <input type="button" value="Entrar">
-        <p>Ou</p>
-        <input type="button" value="Continuar com o Google">
-        <input type="button" value="Continuar com o Facebook">
+        <input type="button" id="input-entrar" class="input-center" value="Entrar">
+        <p class="paragrafo">Ou</p>
+        <a href="#" id="a-google" class="ancora-login"><i class="fa-brands fa-google"></i>Continuar com o Google</a>
+        <a href="#" id="a-face" class="ancora-login"><i class="fa-brands fa-square-facebook"></i>Continuar com o Facebook</a>
     </section>
 </main>
 
