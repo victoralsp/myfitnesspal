@@ -10,9 +10,9 @@
         font-family: sans-serif;
     }
 
-
-    /* font-family: 'Articulat'; */
-
+    #links-uteis a:hover, #entrar a:hover {
+        color: #5a2bdb;
+    } 
 
 #header article {
     display: flex;
@@ -69,17 +69,18 @@
 }
 
 #sec-login {
-    border: 1px solid black;
     width: 500px;
     margin: 0 auto;
     padding: 3em 1em;
     margin-top: 3em;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
 }
 
 .login {
     font-family: 'Articulat';
     font-size: 1.3em;
-    color: #212121;
+    color: #353535;
     margin-bottom: 1.5em;
 }
 
@@ -92,10 +93,14 @@
     border-radius: 4px;
 }
 
+#forget {
+    margin-bottom: 1em;
+}
+
 .paragrafo {
     margin: .7em 0;
     text-transform: lowercase;
-    color: #4d4d4d;
+    color: #696969;
 }
 
 .input-center {
@@ -109,13 +114,15 @@
 }
 
 .input-login {
-    border: 1px solid rgba(0, 0, 0, 0.233);
+    outline: 1px solid rgba(0, 0, 0, 0.233);
+    border: none;
     font-size: 1em;
+    box-sizing: border-box;
+
 }
 
 .input-login:focus {
-    outline: none;
-    border: 2px solid #0066EE;
+    outline: 2px solid #4C94F3;
 }
 
 #sec-login a {
@@ -131,6 +138,11 @@
     background-color: #0066EE;
 }
 
+#input-entrar:hover {
+    background-color: #1943CF;
+    transition: .3s;
+}
+
 .ancora-login {
     border: 1px solid black;
     width: 80%;
@@ -138,13 +150,97 @@
     border-radius: 4px;
     margin-bottom: .5em;
     border: none;
+    font-family: 'Articulat';
 }
 
-#a-google {
+#sec-login #a-google {
     background-color: #EBEBF0;
-    color: #212121;
+    color: #353535;
+    padding: 1em;
+    text-align: left;   
+    font-size: 1em;
+    letter-spacing: .5px;
 }
 
-#a-face {
+#sec-login #a-google:hover, #sec-login #a-face:hover {
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.164);
+    transition: .2s;
+}
+
+#a-google i {
+    padding: 0 4em 0 .5em;
+    animation: icon_color 2s infinite;
+}
+
+@keyframes icon_color {
+    50% {
+        color: #0066EE;
+    }
+    100% {
+        color: #353535;
+    }
+}
+
+#a-face i {
+    padding: 0 3em 0 .5em;
+}
+
+#sec-login #a-face {
     background-color: #4267B2;
+    color: #E6E6E6;
+    padding: 1em;
+    text-align: left;   
+    font-size: 1em;
+    letter-spacing: .5px;
+}
+
+#art-register {
+    display: flex;
+    justify-content: center;
+    gap: .2em;
+    margin-top: 1em;
+    align-items: center;
+}
+
+#art-register p {
+    font-size: .9em;
+    color: #888888;
+}
+
+#art-register a {
+    text-decoration: none;
+    color: #365cda;
+    font-size: .95em;
+}
+
+#footer {
+    background-color: #F6F6F8;
+    padding: 1.7em;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #3383ec;
+    margin: 0 .2em;
+    font-size: .75em;
+}
+
+#creator {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#creator p {
+    font-size: .75em;
+    color: #696969;
+}
+
+#creator a::after {
+    content: '.';
+    color: #696969;
 }
