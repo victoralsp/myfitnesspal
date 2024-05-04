@@ -231,6 +231,10 @@
 }
 
 @media only screen and (max-width: 599px) {
+    html {
+        scroll-padding-top: 100px;
+    }
+
     #header {
         padding: .9em 2em;
         margin-bottom: 0;

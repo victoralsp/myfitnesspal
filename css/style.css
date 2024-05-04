@@ -12,6 +12,7 @@ font-family: "Articulat";
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 250px;
 }
 
 #header {
