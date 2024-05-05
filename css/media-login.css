@@ -36,13 +36,28 @@
     #main {
         padding-bottom: 10em;
     }
+
+    #navbar a {
+        font-size: .8em;
+        padding: 1.3em .3em 1em .3em;
+    }
 }
 
     @media only screen and (max-width: 600px) {
+        #header article {
+            width: 100%;        
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.070);
+            position: fixed;
+            top: 0;
+            background-color: rgb(255, 255, 255);
+            z-index: 9999;
+        }
+
         #navbar {
             display: flex;
             flex-direction: column;
             padding: 0;
+            margin-top: 4.7em;
         }
     
         #navbar a {
@@ -52,5 +67,57 @@
 
         #main {
             padding-bottom: 13em;
+        }
+
+        #sec-login {
+            width: 95%;
+        }
+
+        #formu a {
+            transform: translateX(-2.5em);
+        }
+
+        #sec-login #a-face, #sec-login #a-google {
+            text-align: center;
+        }
+
+        #a-google i, #a-face i {
+            padding: 0 1em;
+        }
+
+        #sec-login input, .ancora-login {
+            width: 95%;
+        }
+
+
+    }
+
+    @media screen and (max-width: 420px) {
+        #header article a {
+            font-size: .8em;
+        }
+        
+        #header article p {
+            font-size: 1.6em;
+        }
+
+        #navbar {
+            margin-top: 3.7em;
+        }
+
+        #formu a {
+            transform: translateX(-3.3em);
+        }
+
+        #sec-login {
+            width: 100%;
+        }
+
+        #sec-login input, .ancora-login {
+            width: 100%;
+        }
+
+        #sec-login #a-face, #sec-login #a-google {
+            font-size: .9em;
         }
     }
