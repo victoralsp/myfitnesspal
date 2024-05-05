@@ -8,18 +8,25 @@
         margin: 0;
         box-sizing: border-box;
         font-family: sans-serif;
+        transition: .5s ease;
     }
 
     #links-uteis a:hover, #entrar a:hover {
         color: #5a2bdb;
     } 
 
+    body {
+        position: relative;
+        min-height: 100vh;
+    }
+
 #header article {
     display: flex;
-    justify-content: center;
+    width: 53%;
+    margin: 0 auto;
+    justify-content: space-between;
     align-items: center;
     padding: 1.1em;
-    gap: 39em;
 }
 
 #header article a {
@@ -217,7 +224,7 @@
     padding: 1.7em;
     position: absolute;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
     text-align: center;
 }
 
