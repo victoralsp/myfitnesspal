@@ -1,5 +1,7 @@
 
-Clone do MyFitnessPal
+Clone do MyFitnessPal.
+
+
 Este é um clone do MyFitnessPal, uma aplicação web de rastreamento de dieta e exercícios físicos. Desenvolvido utilizando HTML, CSS e JavaScript.
 
 Recurso Principal:
