@@ -225,6 +225,10 @@
     margin-top: 2em;
     }
 
+    #footer ul {
+        flex-direction: column;
+    }
+
     #footer a {
         line-height: 2.5em;
     }
@@ -427,6 +431,11 @@
     #footer {
         line-height: 1.5em;
     }
+
+    #footer ul {
+    flex-direction: column;
+    gap: .7em;
+    }
 }
 
 @media screen and (max-width: 329px){
@@ -438,4 +447,6 @@
         padding-bottom: 23em;
     }
 }
+
+
 

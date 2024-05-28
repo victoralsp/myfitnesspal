@@ -31,21 +31,3 @@ const calcularIMC = () => {
             resultado.innerHTML = 'Preencha os campos!'
         }
 }
-
-// 
-
-if (imc < 18.5) {
-    classificacao = 'Abaixo do peso'
-}
-else if (imc < 25) {
-    classificacao = 'Peso Normal'
-}
-else if (imc < 30) {
-    classificacao = 'A cima do peso'
-}
-else if (imc < 40) {
-    classificacao = 'Obesidade grau II'
-}
-else {
-    classificacao = 'Obesidade grau III'
-}

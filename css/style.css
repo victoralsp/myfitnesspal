@@ -351,6 +351,16 @@ input[type=number]::-webkit-outer-spin-button {
     background-color: #f6f6f8;
     padding: 1em;
 }
+
+#footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#footer li {
+    list-style-type: none;
+}
 #footer a {
         font-family: 'Articulat';
         color: black;
