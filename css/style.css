@@ -63,6 +63,7 @@ html {
     margin: 0 auto;
     padding-top: 130px;
 }
+ 
 #section-comece {
     display: flex;
     gap: 4em;
@@ -186,14 +187,11 @@ html {
 }
 
 #calc-imc {
-    /* background-color: #F3F3F5; */
     text-align: center;
-    margin-top: 5em;
-    width: 750px;
-    height: 332px;
+    width: 43em;
+    height: 22em;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.144);
-    border-radius: 70px 10px;
-    /* border: 2px solid #2121212c; */
+    border-radius: 20px;
     padding: 3em 2em 20em 2em;
     margin: 0 auto;
     box-sizing: border-box;
@@ -226,8 +224,7 @@ html {
 #calc-imc input {
     padding: 10px;
     margin-top: 1em;
-    border-radius: 50px;
-    margin-left: 15px;
+    border-radius: 8px;
     border: 1px solid #212121;
     outline: none;
 }
@@ -239,21 +236,21 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .divCalc button {
-    margin-top: 1.5em;
+    margin: 1.5em auto;
     padding: 15px;
     width: 43%;
-    border-radius: 20px 5px;
+    border-radius: 8px;
     border: none;
-    background-color: #212121;
+    background-color: #0066ee;
     color: #fff;
     font-size: 1em;
     font-weight: bold;
     cursor: pointer;
-    margin-bottom: 1em;
+    display: block;
 }
 
 .divCalc button:hover {
-    background-color: #0066ee;
+    background-color: #212121;
     color: white;
     transition: .2s;
 }
@@ -298,6 +295,7 @@ input[type=number]::-webkit-outer-spin-button {
     width: 300px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.200);
+
 }
 
 #section-receitas article a {
@@ -320,6 +318,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-weight: bold;
     color: #0066ee;
 }
+
 #section-conecte {
     text-align: center;
     margin: 6em 0;

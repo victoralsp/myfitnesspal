@@ -1,0 +1,211 @@
+/* ANIMAÇÕES NO SCROLL section-comece  */
+.section-comece_article {
+animation: letrasOpacity 2s ease;
+}
+@keyframes letrasOpacity {
+from {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+to {
+    opacity: 1;
+    transform: translateX(0);
+}
+}
+
+#section-comece img {
+animation: imgEffect 2s ease;
+}
+
+@keyframes imgEffect {
+from {
+    transform: translateY(300px);
+    opacity: 0;
+}
+to {
+    transform: translateY(0);
+    opacity: 1;
+}
+} 
+    /* FIM ANIMAÇÕES NO SCROLL section-comece  */
+
+
+/*  ANIMAÇÕES NO SCROLL section-registro-alimento  */
+#section-registro-alimento img {
+    animation: appearLeft ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 70%;
+}
+
+.registroAnimation {
+    animation: registroRight ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 70%;
+}
+@keyframes registroRight {
+    from {
+    opacity: 0;
+    transform: translateX(150px);
+     }
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+    }
+    /* FIM ANIMAÇÕES NO SCROLL section-registro-alimento  */
+            
+    /* ANIMAÇÕES NO SCROLL section-ferramentas  */
+#section-ferramentas_article {
+    animation: ferramentasTittle ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 90%;
+}
+@keyframes ferramentasTittle {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#ferramentas-metas {
+    animation: ferramentasCards ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+@keyframes ferramentasCards {
+    from {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cardAnimation {
+    animation: cardAnimation ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 90%;
+}
+
+@keyframes cardAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+    /* FIM ANIMAÇÕES NO SCROLL section-ferramentas  */
+
+    
+    /*  ANIMAÇÕES NO SCROLL section-ferramentas  */
+#calc-imc {
+    animation: imcRight ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 70%;
+}
+@keyframes imcRight {
+    from {
+    opacity: 0;
+    transform: translateX(150px);
+        }
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+    }
+
+    /* FIM ANIMAÇÕES NO SCROLL section-ferramentas  */
+
+    
+    /* ANIMAÇÕES NO SCROLL section-receitas  */
+#receitaLeft {
+        animation: appearRight ease;
+        animation-timeline: view();
+        animation-range: entry 0% cover 65%;
+}
+@keyframes appearRight {
+        from {
+            opacity: 0;
+            transform: translateX(300px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+    }
+}
+    
+#receitaCenter {
+    animation: appearCenter ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 65%;
+}
+@keyframes appearCenter {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#receitaRight {
+    animation: appearLeft ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 65%;
+}
+@keyframes appearLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-300px); /*300 testar*/
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0);
+}
+}
+/* FIM ANIMAÇÕES NO SCROLL section-receitas */ 
+
+
+/* ANIMAÇÕES NO SCROLL section-conecte  */
+#section-conecte {
+    animation: conecteBottom ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+@keyframes conecteBottom {
+    from {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#section-conecte img {
+    animation: imgConecteLeft ease;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+@keyframes imgConecteLeft {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+/* FIM ANIMAÇÕES NO SCROLL section-conecte  */
