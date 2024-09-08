@@ -1,4 +1,4 @@
-/* ANIMAÇÕES NO SCROLL section-comece  */
+/* ANIMAÇÕES section-comece  */
 .section-comece_article {
 animation: letrasOpacity 2s ease;
 }
@@ -27,18 +27,18 @@ to {
     opacity: 1;
 }
 } 
-    /* FIM ANIMAÇÕES NO SCROLL section-comece  */
+    /* FIM ANIMAÇÕES section-comece  */
 
 
 /*  ANIMAÇÕES NO SCROLL section-registro-alimento  */
 #section-registro-alimento img {
-    animation: appearLeft 1ms ease-in-out;
+    animation: appearLeft ease-in-out;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
 
 .registroAnimation {
-    animation: registroBottom 1ms ease-in-out;
+    animation: registroBottom ease-in-out;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
@@ -56,7 +56,7 @@ to {
             
     /* ANIMAÇÕES NO SCROLL section-ferramentas  */
 #section-ferramentas_article {
-    animation: ferramentasTittle 1ms ease-in-out;
+    animation: ferramentasTittle ease-in-out;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
@@ -70,7 +70,7 @@ to {
 }
 
 #ferramentas-metas {
-    animation: ferramentasCards 1ms ease-in-out;
+    animation: ferramentasCards ease-in-out;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
@@ -86,7 +86,7 @@ to {
 }
 
 .cardAnimation {
-    animation: cardAnimation 1ms ease-in-out;
+    animation: cardAnimation ease-in-out;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
@@ -104,7 +104,7 @@ to {
     
     /*  ANIMAÇÕES NO SCROLL section-ferramentas  */
 #calc-imc {
-    animation: imcLeft 1ms ease-in-out;
+    animation: imcLeft ease-in-out;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
@@ -124,25 +124,25 @@ to {
     
     /* ANIMAÇÕES NO SCROLL section-receitas  */
 #section-receitas h2, p {
-    animation: ferramentasTittle 1ms ease-in-out;
+    animation: ferramentasTittle ease-in-out;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;  
 }
 
 #receitaLeft {
-        animation: appearLeft 1ms ease-in-out;
+        animation: appearLeft ease-in-out;
         animation-timeline: view();
         animation-range: entry 0% cover 50%;
 }
     
 #receitaCenter {
-    animation: appearLeft 1ms ease-in-out;
+    animation: appearLeft ease-in-out;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
 
 #receitaRight {
-    animation: appearLeft 1ms ease-in-out;
+    animation: appearLeft ease-in-out;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
