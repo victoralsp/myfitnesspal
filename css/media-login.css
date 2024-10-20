@@ -70,10 +70,20 @@
             position: fixed;
             top: 0;
             background-color: rgb(255, 255, 255);
-            z-index: 9999;
         }
         #navbar {
             padding: 0;
+            display: none;
+            position: fixed;
+            width: 100vw;
+            z-index: 2;
+        }
+
+        #name-and-menu {
+            z-index: 3;
+        }
+
+        #entrar {
             display: none;
         }
         
@@ -91,10 +101,6 @@
             padding: 1em 0;
             width: 100%;
             margin: 0 auto;
-        }
-
-        #entrar {
-            display: none;
         }
 
         #main {
@@ -123,6 +129,10 @@
 
         #art-register {
             margin-bottom: 22em;
+        }
+
+        #footer {
+            z-index: 1;
         }
     
         #links-uteis {

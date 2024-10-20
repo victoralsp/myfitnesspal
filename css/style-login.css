@@ -27,7 +27,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.1em;
-
+    /* z-index: 1; */
 }
 
 #header article a {
@@ -57,6 +57,7 @@
     text-align: center;
     background-color: #0066EE;
     display: block;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
 }
 
 .icone-menu {
@@ -64,6 +65,8 @@
     display: none !important;
     color: #0066EE;
     cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
 
 #navbar ul {
