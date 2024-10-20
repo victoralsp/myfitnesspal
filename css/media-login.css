@@ -73,9 +73,10 @@
         }
         #navbar {
             padding: 0;
-            display: none;
+            /* display: none; */
             position: fixed;
             width: 100vw;
+            opacity: 0;
             z-index: 2;
         }
 
