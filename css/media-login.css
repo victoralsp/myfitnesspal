@@ -72,9 +72,13 @@
             background-color: rgb(255, 255, 255);
             z-index: 9999;
         }
-
         #navbar {
-        padding: 0;
+            padding: 0;
+            display: none;
+        }
+        
+        .icone-menu {
+            display: block !important;
         }
 
         #navbar ul {
@@ -89,8 +93,12 @@
             margin: 0 auto;
         }
 
+        #entrar {
+            display: none;
+        }
+
         #main {
-            padding-bottom: 13em;
+            padding: 3em 0 13em 0;
         }
 
         #sec-login {

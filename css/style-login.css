@@ -56,6 +56,14 @@
     padding: .8em;
     text-align: center;
     background-color: #0066EE;
+    display: block;
+}
+
+.icone-menu {
+    font-size: 1.5em;
+    display: none !important;
+    color: #0066EE;
+    cursor: pointer;
 }
 
 #navbar ul {
@@ -77,6 +85,7 @@
 #navbar a:hover {
     background-color: #00548B;
 }
+
 
 #sec-login {
     text-align: center;
