@@ -1,19 +1,25 @@
 const menuIcon = document.querySelector('.icone-menu')
 const navBar = document.getElementById('navbar')
-let menu = true
+let menu = false
 
-menuIcon.addEventListener('click', () => {
-    if(menu) {
-        navBar.style.opacity = '100'
-        navBar.style.transform = "translateX(0)"
-        menuIcon.innerHTML = '<i class="fa-solid fa-xmark"></i>'
-        
-    } else {
-        navBar.style.opacity = '0'
-        navBar.style.transform = "translateX(-100%)"
-        menuIcon.innerHTML = '<i class="fa-solid fa-bars">'
-    }
+function toggleMenu() {
     menu = !menu
+    if (menu) {
+        menuIcon.innerHTML = '<i class="fa-solid fa-xmark"></i>'
+        navBar.classList.add('active')
+    } else {
+        menuIcon.innerHTML = '<i class="fa-solid fa-bars"></i>'
+        navBar.classList.remove('active')
+    }
+}
+
+menuIcon.addEventListener('click', (event) => {
+    event.stopPropagation()
+    toggleMenu()
 })
 
-
+document.addEventListener('click', (event) => {
+    if (menu && !navBar.contains(event.target) || navBar.contains(event.target) && event.target !== menuIcon) {
+        toggleMenu()
+    }
+})

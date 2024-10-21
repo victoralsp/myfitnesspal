@@ -73,11 +73,17 @@
         }
         #navbar {
             padding: 0;
-            /* display: none; */
+            display: none;
             position: fixed;
             width: 100vw;
             opacity: 0;
             z-index: 2;
+            transform: translateY(-150px);
+        }
+        #navbar.active {
+            display: block;
+            opacity: 1;
+            transform: translateY(0);
         }
 
         #name-and-menu {
@@ -89,7 +95,7 @@
         }
         
         .icone-menu {
-            display: block !important;
+            display: block;
         }
 
         #navbar ul {

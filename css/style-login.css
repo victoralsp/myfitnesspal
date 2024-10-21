@@ -56,13 +56,12 @@
     padding: .8em;
     text-align: center;
     background-color: #0066EE;
-    display: block !important;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.281);
 }
 
 .icone-menu {
     font-size: 1.5em;
-    display: none !important;
+    display: none;
     color: #0066EE;
     cursor: pointer;
     background-color: transparent;
