@@ -3,6 +3,17 @@ font-family: "Articulat";
     src: url('../fonte/ArticulatCFHeavy.otf');
 }
 
+:root {
+    --cor-principal: #0066ee;
+    --cor-hover: #014fb6;
+    --cor-texto: #212121;
+    --cor-secundaria: #3a3a3a;
+    --cor-dark: #1d1d1d;
+    --cor-branco: white;
+    --cor-fundo: #f6f6f8;
+    --cor-erro: rgb(253, 53, 53);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -16,6 +27,9 @@ html {
     scroll-padding-top: 250px;
 }
 
+#bg-color {
+    color: var(--cor-branco);
+}
 #header {
     width: 100%;
     margin: 0 auto;
@@ -23,12 +37,12 @@ html {
     align-items: center;
     justify-content: space-between;
     padding: .9em 9em;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.070);
+    box-shadow: 2px 2px 8px #00000012;
     margin-bottom: 4.5em;
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: white;
+    background-color: var(--cor-branco);
 }
 
 #header article {
@@ -40,10 +54,24 @@ html {
 }
 
 #header p {
-    color: #0066ee;
+    color: var(--cor-principal);
     font-size: 1.6em;
     font-weight: bold;
     text-decoration: none;
+}
+
+#btn-e-login {
+    display: flex;
+    align-items: center;
+    gap: 0 3em;
+}
+
+#btnNoturno {
+    background-color: transparent;
+    border: none;
+    font-size: 1.3em;
+    cursor: pointer;
+    color: var(--cor-principal);
 }
 
 #header a {
@@ -52,7 +80,7 @@ html {
 
 #login {
     font-family: 'Articulat';
-    color: black;
+    color: var(--cor-texto);
     text-transform: uppercase;
     font-size: .9em;
     letter-spacing: 1px;
@@ -71,18 +99,17 @@ html {
     align-items: center;
 }
 
-.section-comece_article h1 {
+#title-comece {
     font-family: 'Articulat';
     font-size: 3.8em;
     line-height: 63px;
-    color: #212121;
-    margin: .3em 0;
+    color: var(--cor-texto);
 }
 
-.section-comece_article p {
+#paragrafo-comece {
     line-height: 24px; 
     font-size: 1.05em;
-    color: rgb(58, 58, 58);
+    color: var(--cor-secundaria);
     margin-bottom: 2em;
 }
 
@@ -94,14 +121,14 @@ html {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #0066ee;
+    background-color: var(--cor-principal);
     padding: 1.1em 3.8em;
-    color: white;
+    color: var(--cor-branco);
     border-radius: 4px;
 }
 
 .section-comece_article a:hover {
-    background-color: #014fb6;
+    background-color: var(--cor-hover);
     transition: .4s;
 }
 
@@ -117,16 +144,16 @@ html {
     width: 44%;
 }
 
-#section-registro-alimento h2 {
+#subtitle-registre {
     font-size: 3.1em;
-    color: #212121;
+    color: var(--cor-texto);
     font-family: 'Articulat';
     line-height: 53px;
     margin-bottom: .3em;
 }
 
-#section-registro-alimento p {
-    color: rgb(58, 58, 58);
+#paragrafo-registre {
+    color: var(--cor-secundaria);
     line-height: 25px;
     font-size: .97em;
     width: 94%;
@@ -137,15 +164,15 @@ html {
     margin-top: 6em;
 }
 
-#section-ferramentas_article h2 {
+#subtitle-ferramentas {
     font-size: 3.1em;
-    color: #212121;
+    color: var(--cor-texto);
     font-family: 'Articulat';
     line-height: 53px;
 }
 
-#section-ferramentas_article p {
-    color: rgb(58, 58, 58);
+#paragrafo-ferramentas {
+    color: var(--cor-secundaria);
     line-height: 25px;
     font-size: .97em;
     width: 38%;
@@ -173,12 +200,12 @@ html {
 
 #ferramentas-metas h3 {
     font-size: 1.3em;
-    color: #212121;
+    color: var(--cor-texto);
     margin-top: 1.7em;
 }
 
 #ferramentas-metas p {
-    color: rgb(58, 58, 58);
+    color: var(--cor-secundaria);
     line-height: 25px;
     font-size: 1em;
     width: 95%;
@@ -189,7 +216,7 @@ html {
 #calc-imc {
     text-align: center;
     width: 43em;
-    height: 22em;
+    height: 25em;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.144);
     border-radius: 20px;
     padding: 3em 2em 20em 2em;
@@ -200,7 +227,7 @@ html {
 #calc-imc h2::before {
     content: "";
     position: absolute;
-    border-bottom: 2px solid #212121;
+    border-bottom: 2px solid var(--cor-texto);
     left: 0;
     right: 0;
     width: 150px;
@@ -211,13 +238,13 @@ html {
 #calc-imc h2 {
     position: relative;
     font-family: 'Articulat';
-    color: #212121;
+    color: var(--cor-texto);
     font-size: 2.5em;
     margin-bottom: .5em;
 }
 
 #calc-imc label {
-    color: #212121;
+    color: var(--cor-texto);
     font-size: 1.2em;
 }
 
@@ -225,7 +252,7 @@ html {
     padding: 10px;
     margin-top: 1em;
     border-radius: 8px;
-    border: 1px solid #212121;
+    border: 1px solid var(--cor-texto);
     outline: none;
 }
 
@@ -241,7 +268,7 @@ input[type=number]::-webkit-outer-spin-button {
     width: 43%;
     border-radius: 8px;
     border: none;
-    background-color: #0066ee;
+    background-color: var(--cor-principal);
     color: #fff;
     font-size: 1em;
     font-weight: bold;
@@ -250,13 +277,13 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .divCalc button:hover {
-    background-color: #212121;
-    color: white;
+    background-color: var(--cor-texto);
+    color: var(--cor-branco);
     transition: .2s;
 }
 
 #resultado {
-    color: #212121;
+    color: var(--cor-erro);
 }
 
 #section-receitas {
@@ -272,13 +299,13 @@ input[type=number]::-webkit-outer-spin-button {
 
 #section-receitas h2 {
     font-size: 3.1em;
-    color: #212121;
+    color: var(--cor-texto);
     font-family: 'Articulat';
     line-height: 53px;
 }
 
 #section-receitas p {
-    color: rgb(58, 58, 58);
+    color: var(--cor-secundaria);
     line-height: 25px;
     font-size: 1em;
     width: 50%;
@@ -307,7 +334,7 @@ input[type=number]::-webkit-outer-spin-button {
     width: 85%;
     text-align: left;
     padding: 1em .8em 0 1em;
-    color: black;
+    color: var(--cor-texto);
 }
 
 #section-receitas article p {
@@ -316,7 +343,7 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
     width: 100%;
     font-weight: bold;
-    color: #0066ee;
+    color: var(--cor-principal);
 }
 
 #section-conecte {
@@ -325,7 +352,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 #section-conecte h2 {
     font-size: 3.1em;
-    color: #212121;
+    color: var(--cor-texto);
     font-family: 'Articulat';
     line-height: 53px;
     width: 30%;
@@ -333,7 +360,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #section-conecte p {
-    color: rgb(58, 58, 58);
+    color: var(--cor-secundaria);
     line-height: 25px;
     font-size: 1em;
     width: 39%;
@@ -347,7 +374,8 @@ input[type=number]::-webkit-outer-spin-button {
 
 #footer {
     text-align: center;
-    background-color: #f6f6f8;
+    /* background-color: var(--cor-fundo); */
+    background-color:var(--cor-branco);
     padding: 1em;
 }
 
@@ -361,11 +389,11 @@ input[type=number]::-webkit-outer-spin-button {
     list-style-type: none;
 }
 #footer a {
-        font-family: 'Articulat';
-        color: black;
-        text-transform: uppercase;
-        font-size: .85em;
-        letter-spacing: 1px;
-        text-decoration: none;
-        margin: 0 1em;
+    font-family: 'Articulat';
+    color: var(--cor-texto);
+    text-transform: uppercase;
+    font-size: .85em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin: 0 1em;
 }
