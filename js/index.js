@@ -28,41 +28,31 @@ const calcularIMC = () => {
 
 // Modo noturno 
 
-const btnNoturno = document.getElementById('btnNoturno');
-const header = document.getElementById('header');
-const main = document.getElementById('main');
-const footer = document.getElementById('footer');
-const login = document.getElementById('login');
-const titleComece = document.getElementById('title-comece');
-const bgColor = document.getElementById('bg-color');
-const paragrafoComece = document.getElementById('paragrafo-comece');
-const subtitleResgistre = document.getElementById('subtitle-registre');
-const paragrafoRegistre = document.getElementById('paragrafo-registre');
-const subtitleFerramentas = document.getElementById('subtitle-ferramentas');
-const paragrafoFerramentas = document.getElementById('paragrafo-ferramentas');
-
-let noturno = false;
+const btnNoturno = document.getElementById('btnNoturno')
+const whiteTextColorDarkMode = document.getElementsByClassName('white-text-dark-mode')
+const bgDarkMode = document.getElementsByClassName('bg-color-dark-mode')
+const greyTextColorDarkMode = document.getElementsByClassName('grey-text-dark-mode')
+let noturno = false
 
 const modoNoturno = () => {
-    const cor = noturno ? 'dark' : 'branco';
-    const textoCor = noturno ? 'branco' : 'dark';
+    const cor = noturno ? 'dark' : 'branco'
+    const whiteTextCor = noturno ? 'branco' : 'dark'
+    const greyTextColor = noturno ? 'grey-dark' : 'dark'
 
-    header.style.backgroundColor = `var(--cor-${cor})`;
-    header.style.boxShadow = noturno ? '2px 2px 10px #f7f7f720' : '2px 2px 8px rgba(0, 0, 0, 0.070)';
-    main.style.backgroundColor = `var(--cor-${cor})`;
-    footer.style.backgroundColor = `var(--cor-${cor})`;
-    login.style.color = `var(--cor-${textoCor})`;
-    titleComece.style.color = `var(--cor-${textoCor})`;
-    paragrafoComece.style.color = `var(--cor-${textoCor})`;
-    subtitleResgistre.style.color = `var(--cor-${textoCor})`;
-    paragrafoRegistre.style.color = `var(--cor-${textoCor})`;
-    subtitleFerramentas.style.color = `var(--cor-${textoCor})`;
-    paragrafoFerramentas.style.color = `var(--cor-${textoCor})`;
-    bgColor.style.backgroundColor = `var(--cor-${cor})`;
-};
+    for(let i = 0; i < whiteTextColorDarkMode.length; i++) {
+        whiteTextColorDarkMode[i].style.color = `var(--cor-${whiteTextCor})`
+    }
+    for(let i = 0; i < bgDarkMode.length; i++) {
+        bgDarkMode[i].style.backgroundColor = `var(--cor-${cor})`
+    }
+    for(let i = 0; i < greyTextColorDarkMode.length; i++) {
+        greyTextColorDarkMode[i].style.color = `var(--cor-${greyTextColor})`
+    }
+    
+}
 
 btnNoturno.addEventListener('click', () => {
-    noturno = !noturno;
-    modoNoturno();
-});
+    noturno = !noturno
+    modoNoturno()
+})
 

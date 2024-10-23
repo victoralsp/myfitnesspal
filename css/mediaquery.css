@@ -55,6 +55,11 @@
         text-align: center;
         padding: .9em 5em;
     }
+    #title-comece {
+        font-size: 3em;
+        line-height: 60px;
+        padding: .5em 0;
+    }
 
     .section-comece_article p {
         width: 70%;
@@ -149,8 +154,10 @@
         padding: .9em 2em;
     }
 
-    .section-comece_article h1 {
-    font-size: 4em;
+    #title-comece {
+    font-size: 3em;
+    line-height: 50px;
+    padding: .5em 0;
     }
 
     .section-comece_article p {
@@ -266,8 +273,8 @@
         text-align: center;
     }
 
-    .section-comece_article h1 {
-        font-size: 2.1em;
+    #title-comece {
+        font-size: 2em;
         line-height: 35px;
         width: 90%;
         margin: 0 auto .3em;
