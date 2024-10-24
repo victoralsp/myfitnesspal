@@ -32,12 +32,14 @@ const btnNoturno = document.getElementById('btnNoturno')
 const whiteTextColorDarkMode = document.getElementsByClassName('white-text-dark-mode')
 const bgDarkMode = document.getElementsByClassName('bg-color-dark-mode')
 const greyTextColorDarkMode = document.getElementsByClassName('grey-text-dark-mode')
+const whiteShadowDarkMode = document.getElementsByClassName('white-shadow-dark-mode')
 let noturno = false
 
 const modoNoturno = () => {
     const cor = noturno ? 'dark' : 'branco'
     const whiteTextCor = noturno ? 'branco' : 'dark'
     const greyTextColor = noturno ? 'grey-dark' : 'dark'
+    const whiteShadow = noturno ? 'shadow-branco' : 'shadow-preto'
 
     for(let i = 0; i < whiteTextColorDarkMode.length; i++) {
         whiteTextColorDarkMode[i].style.color = `var(--cor-${whiteTextCor})`
@@ -48,7 +50,9 @@ const modoNoturno = () => {
     for(let i = 0; i < greyTextColorDarkMode.length; i++) {
         greyTextColorDarkMode[i].style.color = `var(--cor-${greyTextColor})`
     }
-    
+    for(let i = 0; i < whiteShadowDarkMode.length; i++) {
+        whiteShadowDarkMode[i].style.boxShadow = `0px 0px 4px var(--cor-${whiteShadow})`
+    }
 }
 
 btnNoturno.addEventListener('click', () => {

@@ -129,23 +129,12 @@ to {
     animation-range: entry 0% contain 70%;  
 }
 
-#receitaLeft {
-        animation: appearLeft ease-out;
-        animation-timeline: view();
-        animation-range: entry 0% contain 70%;
-}
-    
-#receitaCenter {
+.article-receitas-cards {
     animation: appearLeft ease-out;
     animation-timeline: view();
     animation-range: entry 0% contain 70%;
 }
 
-#receitaRight {
-    animation: appearLeft ease-out;
-    animation-timeline: view();
-    animation-range: entry 0% contain 70%;
-}
 @keyframes appearLeft {
     from {
         opacity: 0;

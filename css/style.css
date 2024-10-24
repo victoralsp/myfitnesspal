@@ -13,6 +13,8 @@ font-family: "Articulat";
     --cor-fundo: #f6f6f8;
     --cor-grey-dark: rgb(211, 211, 211);
     --cor-erro: rgb(253, 53, 53);
+    --cor-shadow-branco: rgba(255, 255, 255, 0.233);
+    --cor-shadow-preto: rgba(0, 0, 0, 0.13);
 }
 
 * {
@@ -38,7 +40,7 @@ html {
     align-items: center;
     justify-content: space-between;
     padding: .9em 9em;
-    box-shadow: 2px 2px 8px #00000012;
+    box-shadow: 2px 2px 8px var(--cor-shadow-preto);
     margin-bottom: 4.5em;
     position: fixed;
     top: 0;
@@ -196,7 +198,7 @@ html {
 #ferramentas-metas img {
     padding: 30px;
     border-radius: 100%;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.103);
+    box-shadow: 0px 1px 10px var(--cor-shadow-preto);
 }
 
 .subtitle-metas {
@@ -218,7 +220,7 @@ html {
     text-align: center;
     width: 43em;
     height: 25em;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.144);
+    box-shadow: 0px 0px 5px var(--cor-shadow-preto);
     border-radius: 20px;
     padding: 3em 2em 20em 2em;
     margin: 0 auto;
@@ -284,7 +286,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #resultado {
-    color: var(--cor-erro);
+    color: var(--cor-branco);
 }
 
 #section-receitas {
@@ -322,8 +324,7 @@ input[type=number]::-webkit-outer-spin-button {
     margin-top: 2em;
     width: 300px;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.200);
-
+    box-shadow: 0px 0px 5px var(--cor-shadow-preto);
 }
 
 #section-receitas article a {
@@ -375,8 +376,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 #footer {
     text-align: center;
-    /* background-color: var(--cor-fundo); */
-    background-color:var(--cor-branco);
+    background-color: var(--cor-fundo);
     padding: 1em;
 }
 
