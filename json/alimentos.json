@@ -1,0 +1,181 @@
+{
+  "alimentos":[
+    {
+      "nome": "Frango (Peito)",
+      "calorias": 165,
+      "proteinas": "31g",
+      "gorduras": "3.6g",
+      "carboidratos": "0g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Ovo (Cozido)",
+      "calorias": 155,
+      "proteinas": "13g",
+      "gorduras": "11g",
+      "carboidratos": "1.1g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Arroz (Branco, Cozido)", 
+      "calorias": 130,
+      "proteinas": "2.7g",
+      "gorduras": "0.3g",
+      "carboidratos": "28g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Feijão (Cozido, Preto)",
+      "calorias": 127,
+      "proteinas": "8.7g",
+      "gorduras": "0.5g",
+      "carboidratos": "22g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Macarrão (Cozido)",
+      "calorias": 158,
+      "proteinas": "5.8g",
+      "gorduras": "1g",
+      "carboidratos": "31g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Carne Bovina (Coxão Mole, Cozido)",
+      "calorias": 250,
+      "proteinas": "26g",
+      "gorduras": "15g",
+      "carboidratos": "0g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Peixe (Salmão, Cozido)",
+      "calorias": 206,
+      "proteinas": "22g",
+      "gorduras": "12g",
+      "carboidratos": "0g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Abacate",
+      "calorias": 160,
+      "proteinas": "2g",
+      "gorduras": "15g",
+      "carboidratos": "9g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Batata (Cozida)",
+      "calorias": 77,
+      "proteinas": "2g",
+      "gorduras": "0.1g",
+      "carboidratos": "17g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Brócolis (Cozido)",
+      "calorias": 55,
+      "proteinas": "3.7g",
+      "gorduras": "0.6g",
+      "carboidratos": "11g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Tomate",
+      "calorias": 18,
+      "proteinas": "0.9g",
+      "gorduras": "0.2g",
+      "carboidratos": "3.9g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Cenoura (Cozida)",
+      "calorias": 35,
+      "proteinas": "0.8g",
+      "gorduras": "0.2g",
+      "carboidratos": "8.2g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Maçã",
+      "calorias": 52,
+      "proteinas": "0.3g",
+      "gorduras": "0.2g",
+      "carboidratos": "14g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Banana",
+      "calorias": 89,
+      "proteinas": "1.1g",
+      "gorduras": "0.3g",
+      "carboidratos": "23g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Alface",
+      "calorias": 15,
+      "proteinas": "1.4g",
+      "gorduras": "0.2g",
+      "carboidratos": "2.9g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Pão Integral",
+      "calorias": 252,
+      "proteinas": "10g",
+      "gorduras": "4.2g",
+      "carboidratos": "41g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Queijo (Mussarela)",
+      "calorias": 280,
+      "proteinas": "20g",
+      "gorduras": "17g",
+      "carboidratos": "2g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Iogurte Natural",
+      "calorias": 59,
+      "proteinas": "3.5g",
+      "gorduras": "1.5g",
+      "carboidratos": "7.9g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Leite Integral",
+      "calorias": 61,
+      "proteinas": "3.3g",
+      "gorduras": "3.3g",
+      "carboidratos": "4.8g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Aveia",
+      "calorias": 389,
+      "proteinas": "16g",
+      "gorduras": "7g",
+      "carboidratos": "66g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Amêndoas",
+      "calorias": 579,
+      "proteinas": "21g",
+      "gorduras": "49g",
+      "carboidratos": "22g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Tomate (Cozido)",
+      "calorias": 22,
+      "proteinas": "1.1g",
+      "gorduras": "0.2g",
+      "carboidratos": "4.8g",
+      "quantidade_porcao": "100g"
+    }
+  ]
+  
+}

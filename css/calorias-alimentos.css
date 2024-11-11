@@ -1,0 +1,51 @@
+#buscar-alimento {
+    padding: 1em;
+    width: 30em;
+    border-radius: 50px;
+    border: 2px solid var(--cor-texto);
+}
+
+#buscar-alimento:focus {
+    color: var(--cor-principal);
+}
+
+#titulo {
+    color: var(--cor-texto);
+    text-align: center;
+    margin: 0 0 1.5em 0;
+    font-family: 'Articulat';
+    font-size: 3em;
+    color: var(--cor-texto);
+}
+
+#alimentos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.alimentos-calorias {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.178);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 350px;
+    padding: 1em;
+}
+
+.alimentos-calorias h1 {
+    color: var(--cor-principal);
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+.alimentos-calorias p {
+    color: var(--cor-texto);
+    font-size: 1.1em;
+    margin: .5em 0;
+}
+
+.valores-span {
+    font-weight: bold;
+}

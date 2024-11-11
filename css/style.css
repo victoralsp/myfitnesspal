@@ -63,6 +63,15 @@ html {
     text-decoration: none;
 }
 
+#calc-calorias-link {
+    color: var(--cor-principal);
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+#calc-calorias-link:hover {
+    text-decoration: underline;
+}
+
 #btn-e-login {
     display: flex;
     align-items: center;
@@ -75,6 +84,15 @@ html {
     font-size: 1.3em;
     cursor: pointer;
     color: var(--cor-principal);
+}
+
+#menu-navbar {
+    background-color: transparent;
+    border: none;
+    color: var(--cor-principal);
+    font-size: 1.5em;
+    display: none;
+    cursor: pointer;
 }
 
 #header a {
@@ -114,6 +132,10 @@ html {
     font-size: 1.05em;
     color: var(--cor-secundaria);
     margin-bottom: 2em;
+}
+.txtAzul {
+    font-weight: bolder;
+    color: var(--cor-principal);
 }
 
 #section-comece img {
