@@ -175,6 +175,726 @@
       "gorduras": "0.2g",
       "carboidratos": "4.8g",
       "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Couve-flor (Cozida)",
+      "calorias": 23,
+      "proteinas": "1.9g",
+      "gorduras": "0.3g",
+      "carboidratos": "4.7g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Pimentão",
+      "calorias": 20,
+      "proteinas": "0.9g",
+      "gorduras": "0.2g",
+      "carboidratos": "4.7g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Abacaxi",
+      "calorias": 50,
+      "proteinas": "0.5g",
+      "gorduras": "0.1g",
+      "carboidratos": "13g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Acelga (Cozida)",
+      "calorias": 19,
+      "proteinas": "1.7g",
+      "gorduras": "0.2g",
+      "carboidratos": "3.7g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Lentilha (Cozida)",
+      "calorias": 116,
+      "proteinas": "9g",
+      "gorduras": "0.4g",
+      "carboidratos": "20g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Couve (Cozida)",
+      "calorias": 33,
+      "proteinas": "3.3g",
+      "gorduras": "0.5g",
+      "carboidratos": "6.7g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Chuchu (Cozido)",
+      "calorias": 19,
+      "proteinas": "0.7g",
+      "gorduras": "0.1g",
+      "carboidratos": "4.3g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Sopa de Abóbora",
+      "calorias": 45,
+      "proteinas": "1.3g",
+      "gorduras": "0.2g",
+      "carboidratos": "10g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Feijão (Cozido, Carioca)",
+      "calorias": 127,
+      "proteinas": "8.3g",
+      "gorduras": "0.8g",
+      "carboidratos": "23g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Grão-de-bico (Cozido)",
+      "calorias": 164,
+      "proteinas": "8.9g",
+      "gorduras": "2.6g",
+      "carboidratos": "27g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Tapioca",
+      "calorias": 159,
+      "proteinas": "0.4g",
+      "gorduras": "0.1g",
+      "carboidratos": "38g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Melancia",
+      "calorias": 30,
+      "proteinas": "0.6g",
+      "gorduras": "0.2g",
+      "carboidratos": "8g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Pêssego",
+      "calorias": 39,
+      "proteinas": "0.9g",
+      "gorduras": "0.1g",
+      "carboidratos": "10g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Manga",
+      "calorias": 60,
+      "proteinas": "0.8g",
+      "gorduras": "0.4g",
+      "carboidratos": "15g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Abóbora (Cruda)",
+      "calorias": 25,
+      "proteinas": "1g",
+      "gorduras": "0.1g",
+      "carboidratos": "6g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Cogumelo (Shiitake)",
+      "calorias": 34,
+      "proteinas": "2.2g",
+      "gorduras": "0.5g",
+      "carboidratos": "6.8g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Berinjela (Cozida)",
+      "calorias": 25,
+      "proteinas": "0.8g",
+      "gorduras": "0.2g",
+      "carboidratos": "5.8g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Batata Doce (Cozida)",
+      "calorias": 86,
+      "proteinas": "1.6g",
+      "gorduras": "0.1g",
+      "carboidratos": "20g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Pepino (Em conserva)",
+      "calorias": 12,
+      "proteinas": "0.5g",
+      "gorduras": "0.1g",
+      "carboidratos": "2.6g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Abobrinha (Cozida)",
+      "calorias": 17,
+      "proteinas": "1.2g",
+      "gorduras": "0.3g",
+      "carboidratos": "3.1g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Sardinha (Cozida)",
+      "calorias": 208,
+      "proteinas": "24g",
+      "gorduras": "11g",
+      "carboidratos": "0g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Atum (Em conserva)",
+      "calorias": 132,
+      "proteinas": "28g",
+      "gorduras": "1g",
+      "carboidratos": "0g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Framboesa",
+      "calorias": 52,
+      "proteinas": "1.5g",
+      "gorduras": "0.8g",
+      "carboidratos": "12g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Morango",
+      "calorias": 32,
+      "proteinas": "0.7g",
+      "gorduras": "0.3g",
+      "carboidratos": "7.7g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Uva",
+      "calorias": 69,
+      "proteinas": "0.7g",
+      "gorduras": "0.2g",
+      "carboidratos": "18g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Cebola",
+      "calorias": 40,
+      "proteinas": "1.1g",
+      "gorduras": "0.1g",
+      "carboidratos": "9g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Alho",
+      "calorias": 149,
+      "proteinas": "6.4g",
+      "gorduras": "0.5g",
+      "carboidratos": "33g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Almeirão",
+      "calorias": 15,
+      "proteinas": "1.2g",
+      "gorduras": "0.3g",
+      "carboidratos": "3g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Mandioca (Cozida)",
+      "calorias": 160,
+      "proteinas": "1.4g",
+      "gorduras": "0.3g",
+      "carboidratos": "38g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Alho-poró",
+      "calorias": 61,
+      "proteinas": "1.5g",
+      "gorduras": "0.3g",
+      "carboidratos": "14g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Pão Francês",
+      "calorias": 138,
+      "proteinas": "4.2g",
+      "gorduras": "1.5g",
+      "carboidratos": "25.2g",
+      "quantidade_porcao": "50g"
+    },
+    {
+      "nome": "Requeijão Cremoso",
+      "calorias": 300,
+      "proteinas": "10g",
+      "gorduras": "30g",
+      "carboidratos": "4g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Queijo Prato",
+      "calorias": 340,
+      "proteinas": "22g",
+      "gorduras": "26g",
+      "carboidratos": "2g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Presunto (Fatiado)",
+      "calorias": 114,
+      "proteinas": "10g",
+      "gorduras": "8g",
+      "carboidratos": "1g",
+      "quantidade_porcao": "50g"
+    },
+    {
+      "nome": "Mortadela",
+      "calorias": 272,
+      "proteinas": "12g",
+      "gorduras": "23g",
+      "carboidratos": "1g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Salsicha (Cozida)",
+      "calorias": 154,
+      "proteinas": "10g",
+      "gorduras": "13g",
+      "carboidratos": "1g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Hambúrguer de Carne",
+      "calorias": 295,
+      "proteinas": "17g",
+      "gorduras": "23g",
+      "carboidratos": "3g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Bacon",
+      "calorias": 541,
+      "proteinas": "37g",
+      "gorduras": "42g",
+      "carboidratos": "1g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Coxinha de Frango (Frita)",
+      "calorias": 265,
+      "proteinas": "10g",
+      "gorduras": "15g",
+      "carboidratos": "25g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Esfirra de Carne",
+      "calorias": 235,
+      "proteinas": "9g",
+      "gorduras": "9g",
+      "carboidratos": "30g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Pizza (Margarita)",
+      "calorias": 280,
+      "proteinas": "12g",
+      "gorduras": "10g",
+      "carboidratos": "35g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Pão de Queijo",
+      "calorias": 140,
+      "proteinas": "3.5g",
+      "gorduras": "8g",
+      "carboidratos": "14g",
+      "quantidade_porcao": "50g"
+    },
+    {
+      "nome": "Manteiga",
+      "calorias": 717,
+      "proteinas": "0.9g",
+      "gorduras": "81g",
+      "carboidratos": "0.1g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Creme de Leite",
+      "calorias": 348,
+      "proteinas": "2.5g",
+      "gorduras": "37g",
+      "carboidratos": "5g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Achocolatado em Pó",
+      "calorias": 385,
+      "proteinas": "5g",
+      "gorduras": "6g",
+      "carboidratos": "77g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Leite Condensado",
+      "calorias": 330,
+      "proteinas": "7g",
+      "gorduras": "10g",
+      "carboidratos": "60g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Caldo de Carne (Em Pó)",
+      "calorias": 112,
+      "proteinas": "8g",
+      "gorduras": "6g",
+      "carboidratos": "4g",
+      "quantidade_porcao": "20g"
+    },
+    {
+      "nome": "Molho de Tomate (Pronto)",
+      "calorias": 40,
+      "proteinas": "1.5g",
+      "gorduras": "2g",
+      "carboidratos": "6g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Óleo de Soja",
+      "calorias": 884,
+      "proteinas": "0g",
+      "gorduras": "100g",
+      "carboidratos": "0g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Azeite de Oliva",
+      "calorias": 884,
+      "proteinas": "0g",
+      "gorduras": "100g",
+      "carboidratos": "0g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Ketchup",
+      "calorias": 112,
+      "proteinas": "1g",
+      "gorduras": "0g",
+      "carboidratos": "27g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Maionese",
+      "calorias": 680,
+      "proteinas": "1g",
+      "gorduras": "75g",
+      "carboidratos": "2g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Mostarda",
+      "calorias": 66,
+      "proteinas": "4g",
+      "gorduras": "3.6g",
+      "carboidratos": "5g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Chocolate ao Leite",
+      "calorias": 535,
+      "proteinas": "7g",
+      "gorduras": "30g",
+      "carboidratos": "58g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Salgadinhos (Tipo Cheetos)",
+      "calorias": 537,
+      "proteinas": "6g",
+      "gorduras": "35g",
+      "carboidratos": "55g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Batata Frita",
+      "calorias": 312,
+      "proteinas": "3.4g",
+      "gorduras": "15g",
+      "carboidratos": "41g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Biscoito (Recheado)",
+      "calorias": 492,
+      "proteinas": "5g",
+      "gorduras": "25g",
+      "carboidratos": "63g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Fritas Congeladas",
+      "calorias": 120,
+      "proteinas": "2g",
+      "gorduras": "6g",
+      "carboidratos": "15g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Queijo Minas Frescal",
+      "calorias": 270,
+      "proteinas": "18g",
+      "gorduras": "18g",
+      "carboidratos": "4g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Queijo Cheddar",
+      "calorias": 402,
+      "proteinas": "25g",
+      "gorduras": "33g",
+      "carboidratos": "1g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Queijo Cottage",
+      "calorias": 98,
+      "proteinas": "11g",
+      "gorduras": "4g",
+      "carboidratos": "4g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Salmão Defumado",
+      "calorias": 117,
+      "proteinas": "18g",
+      "gorduras": "5g",
+      "carboidratos": "0g",
+      "quantidade_porcao": "50g"
+    },
+    {
+      "nome": "Salame",
+      "calorias": 400,
+      "proteinas": "22g",
+      "gorduras": "35g",
+      "carboidratos": "2g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Atum em Lata",
+      "calorias": 132,
+      "proteinas": "28g",
+      "gorduras": "1g",
+      "carboidratos": "0g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Presunto de Peru",
+      "calorias": 128,
+      "proteinas": "18g",
+      "gorduras": "7g",
+      "carboidratos": "1g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Azeitona Preta",
+      "calorias": 115,
+      "proteinas": "0.8g",
+      "gorduras": "10g",
+      "carboidratos": "6g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Azeitona Verde",
+      "calorias": 145,
+      "proteinas": "1g",
+      "gorduras": "12g",
+      "carboidratos": "8g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Patê de Atum",
+      "calorias": 170,
+      "proteinas": "16g",
+      "gorduras": "10g",
+      "carboidratos": "3g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Bolacha Integral",
+      "calorias": 387,
+      "proteinas": "9g",
+      "gorduras": "14g",
+      "carboidratos": "60g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Bolacha Recheada",
+      "calorias": 510,
+      "proteinas": "5g",
+      "gorduras": "26g",
+      "carboidratos": "66g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Amendoim Torrado",
+      "calorias": 567,
+      "proteinas": "26g",
+      "gorduras": "49g",
+      "carboidratos": "16g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Manteiga",
+      "calorias": 717,
+      "proteinas": "1g",
+      "gorduras": "81g",
+      "carboidratos": "0.1g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Margarina",
+      "calorias": 717,
+      "proteinas": "0g",
+      "gorduras": "80g",
+      "carboidratos": "0g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Maionese",
+      "calorias": 700,
+      "proteinas": "1g",
+      "gorduras": "77g",
+      "carboidratos": "2g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Creme de Leite",
+      "calorias": 314,
+      "proteinas": "3g",
+      "gorduras": "32g",
+      "carboidratos": "3g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Leite Condensado",
+      "calorias": 320,
+      "proteinas": "7g",
+      "gorduras": "8g",
+      "carboidratos": "53g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Achocolatado em Pó",
+      "calorias": 382,
+      "proteinas": "7g",
+      "gorduras": "7g",
+      "carboidratos": "74g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Suco de Laranja (caixa)",
+      "calorias": 44,
+      "proteinas": "0.6g",
+      "gorduras": "0.1g",
+      "carboidratos": "10g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Refrigerante (Lata)",
+      "calorias": 46,
+      "proteinas": "0g",
+      "gorduras": "0g",
+      "carboidratos": "11g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Café Preto",
+      "calorias": 2,
+      "proteinas": "0g",
+      "gorduras": "0g",
+      "carboidratos": "0.4g",
+      "quantidade_porcao": "100ml"
+    },
+    {
+      "nome": "Chá Preto",
+      "calorias": 1,
+      "proteinas": "0g",
+      "gorduras": "0g",
+      "carboidratos": "0.2g",
+      "quantidade_porcao": "100ml"
+    },
+    {
+      "nome": "Chá Verde",
+      "calorias": 0,
+      "proteinas": "0g",
+      "gorduras": "0g",
+      "carboidratos": "0g",
+      "quantidade_porcao": "100ml"
+    },
+    {
+      "nome": "Sopa Enlatada",
+      "calorias": 70,
+      "proteinas": "3g",
+      "gorduras": "3g",
+      "carboidratos": "9g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Caldo de Carne (tablete)",
+      "calorias": 35,
+      "proteinas": "1g",
+      "gorduras": "2g",
+      "carboidratos": "4g",
+      "quantidade_porcao": "10g"
+    },
+    {
+      "nome": "Chocolate ao Leite",
+      "calorias": 532,
+      "proteinas": "6g",
+      "gorduras": "30g",
+      "carboidratos": "58g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Chocolate Amargo",
+      "calorias": 550,
+      "proteinas": "7g",
+      "gorduras": "31g",
+      "carboidratos": "48g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Balas de Caramelo",
+      "calorias": 382,
+      "proteinas": "1g",
+      "gorduras": "6g",
+      "carboidratos": "85g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Gomas de Mastigar",
+      "calorias": 370,
+      "proteinas": "1g",
+      "gorduras": "0g",
+      "carboidratos": "92g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Cereal de Milho",
+      "calorias": 375,
+      "proteinas": "7g",
+      "gorduras": "1g",
+      "carboidratos": "84g",
+      "quantidade_porcao": "100g"
+    },
+    {
+      "nome": "Barrinha de Cereal",
+      "calorias": 420,
+      "proteinas": "6g",
+      "gorduras": "15g",
+      "carboidratos": "60g",
+      "quantidade_porcao": "100g"
     }
   ]
   

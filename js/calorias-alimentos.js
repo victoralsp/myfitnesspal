@@ -1,4 +1,5 @@
 const divAlimentos = document.getElementById('alimentos')
+const inputBuscaAlimento = document.getElementById('buscar-alimento')
 
 fetch('json/alimentos.json').then((resposta) => {
     return resposta.json()
@@ -15,5 +16,32 @@ fetch('json/alimentos.json').then((resposta) => {
         <p>Quantidade por porção: <span class="valores-span">${listagem.quantidade_porcao}</span></p></div>
         `
     })
-}) 
+
+    // Verifica se há algum alimento com nome igual ao pesquisado
+    inputBuscaAlimento.addEventListener('input', () => {
+        const valorBuscaInput = inputBuscaAlimento.value.toLowerCase()
+        const alimentosDivs = document.querySelectorAll('.alimentos-calorias')
+        const errosBusca = document.getElementById('erros')
+
+        let alimentoEncontrado = false
+    
+        alimentosDivs.forEach(div => {
+            const nomeAlimento = div.querySelector('h1').textContent.toLowerCase()
+
+            if (nomeAlimento.includes(valorBuscaInput)) {
+                div.style.display = 'block'
+                alimentoEncontrado = true
+            } else {
+                div.style.display = 'none'
+            }
+        })
+        if (!alimentoEncontrado && valorBuscaInput) {
+            // alert('teste')
+            errosBusca.innerHTML = 'Alimento não encontrado, verifique se digitou corretamente.'
+        } else {
+            errosBusca.innerHTML = ''
+        }
+        })     
+    }) 
+
 

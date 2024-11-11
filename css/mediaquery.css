@@ -241,7 +241,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     #menu-navbar {
         display: block;
     }
@@ -249,7 +249,7 @@
     #btnNoturno,
     #login {
         color: var(--cor-branco) !important;
-        border: 1px solid rgba(0, 0, 0, 0.185);
+        border: 1px solid rgba(3, 13, 32, 0.219);
         width: 100%;
         text-align: center;
         flex-grow: 1; 
@@ -271,14 +271,18 @@
         flex-direction: column-reverse;
         justify-content: space-evenly;
         position: absolute;
-        top: 4.2em;
+        top: 5.1em;
         left: 0;
         width: 100%;
         height: 50vh;
+        transform: translateX(-150px);
+        transition: .5s ease;
+        box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.267);
     }
-
+    
     #btn-e-login.active {
         opacity: 1;
+        transform: translateX(0);
         pointer-events: all;
     }
 }
@@ -303,6 +307,10 @@
 
     #header a {
         font-size: .9em;
+    }
+
+    #btn-e-login {
+        top: 3.6em;
     }
 
     #main {
