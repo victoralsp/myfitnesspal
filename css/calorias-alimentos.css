@@ -14,23 +14,28 @@
     text-align: center;
     margin: 2em auto;
     position: relative;
-    width: fit-content;
-}
-
-#search-icone {
-    position: absolute;
-    right: 1em;
-    top: 1em;
+    width: 90%;
+    max-width: 30em;
 }
 
 #buscar-alimento {
-    padding: 1em;
-    width: 30em;
+    padding: 1em; 
     border-radius: 50px;
     border: 2px solid var(--cor-texto);
     color: var(--cor-texto);
     outline: none;
+    width: 100%;
+    box-sizing: border-box;
 }
+
+#search-icone {
+    position: absolute;
+    right: 1.5em; 
+    top: 50%;
+    transform: translateY(-50%); 
+    color: var(--cor-texto);
+}
+
 #buscar-alimento:focus {
     border: 2px solid var(--cor-principal);
 }
