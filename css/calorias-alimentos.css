@@ -33,7 +33,7 @@
     right: 1.5em; 
     top: 50%;
     transform: translateY(-50%); 
-    color: var(--cor-texto);
+    color: var(--cor-principal);
 }
 
 #buscar-alimento:focus {
@@ -54,6 +54,7 @@
     width: 90%;
     max-width: 350px;
     padding: 1em 2em;
+    display: none;
 }
 
 .alimentos-calorias h1 {
@@ -76,4 +77,10 @@
 #erros {
     color: var(--cor-erro);
     text-align: center;
+}
+
+#img-comidas-saudaveis {
+    width: 80%;
+    max-width: 900px;
+    padding: 3em 0;
 }
