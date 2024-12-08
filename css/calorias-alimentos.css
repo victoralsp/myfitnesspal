@@ -52,7 +52,6 @@
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
-    cursor: pointer;
     padding: 1em;
 }
 
@@ -62,6 +61,7 @@
     color: var(--cor-principal);
     font-family: 'Articulat';
     letter-spacing: .5px;
+    cursor: pointer;
 }
 #seta-baixo {
     font-size: .6em;
