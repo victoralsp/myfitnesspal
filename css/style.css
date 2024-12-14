@@ -4,6 +4,7 @@ font-family: "Articulat";
 }
 
 :root {
+    --font-family: 'Articulat';
     --cor-principal: #0066ee;
     --cor-hover: #014fb6;
     --cor-texto: #212121;
@@ -64,12 +65,19 @@ html {
 }
 
 #calc-calorias-link {
-    color: var(--cor-principal);
+    font-size: .9em;
+    font-family: var(--font-family);
+    color: var(--cor-branco);
+    background-color: var(--cor-principal);
+    padding: .5em 1em;
+    border-radius: 3px;
     text-decoration: none;
-    color: var(--cor-principal);
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
+
 #calc-calorias-link:hover {
-    text-decoration: underline;
+    background-color: #014fb6;
 }
 
 #btn-e-login {
@@ -100,7 +108,7 @@ html {
 }
 
 #login {
-    font-family: 'Articulat';
+    font-family: var(--font-family);
     color: var(--cor-texto);
     text-transform: uppercase;
     font-size: .9em;
@@ -121,7 +129,7 @@ html {
 }
 
 #title-comece {
-    font-family: 'Articulat';
+    font-family: var(--font-family);
     font-size: 3.8em;
     line-height: 63px;
     color: var(--cor-texto);
@@ -132,10 +140,6 @@ html {
     font-size: 1.05em;
     color: var(--cor-secundaria);
     margin-bottom: 2em;
-}
-.txtAzul {
-    font-weight: bolder;
-    color: var(--cor-principal);
 }
 
 #section-comece img {
@@ -172,7 +176,7 @@ html {
 #subtitle-registre {
     font-size: 3.1em;
     color: var(--cor-texto);
-    font-family: 'Articulat';
+    font-family: var(--font-family);
     line-height: 53px;
     margin-bottom: .3em;
 }
@@ -192,7 +196,7 @@ html {
 #subtitle-ferramentas {
     font-size: 3.1em;
     color: var(--cor-texto);
-    font-family: 'Articulat';
+    font-family: var(--font-family);
     line-height: 53px;
 }
 
@@ -262,7 +266,7 @@ html {
 
 #calc-imc h2 {
     position: relative;
-    font-family: 'Articulat';
+    font-family: var(--font-family);
     color: var(--cor-texto);
     font-size: 2.5em;
     margin-bottom: .5em;
@@ -325,7 +329,7 @@ input[type=number]::-webkit-outer-spin-button {
 #section-receitas h2 {
     font-size: 3.1em;
     color: var(--cor-texto);
-    font-family: 'Articulat';
+    font-family: var(--font-family);
     line-height: 53px;
 }
 
@@ -377,7 +381,7 @@ input[type=number]::-webkit-outer-spin-button {
 #section-conecte h2 {
     font-size: 3.1em;
     color: var(--cor-texto);
-    font-family: 'Articulat';
+    font-family: var(--font-family);
     line-height: 53px;
     width: 30%;
     margin: 0 auto;
@@ -412,7 +416,7 @@ input[type=number]::-webkit-outer-spin-button {
     list-style-type: none;
 }
 #footer a {
-    font-family: 'Articulat';
+    font-family: var(--font-family);
     color: var(--cor-texto);
     text-transform: uppercase;
     font-size: .85em;
