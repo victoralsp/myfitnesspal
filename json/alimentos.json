@@ -442,11 +442,11 @@
     },
     {
       "nome": "Presunto (Fatiado)",
-      "calorias": 114,
-      "proteinas": "10g",
-      "gorduras": "8g",
-      "carboidratos": "1g",
-      "quantidade_porcao": "50g"
+      "calorias": 228,
+      "proteinas": "20g",
+      "gorduras": "16g",
+      "carboidratos": "2g",
+      "quantidade_porcao": "100g"
     },
     {
       "nome": "Mortadela",
@@ -506,11 +506,11 @@
     },
     {
       "nome": "Pão de Queijo",
-      "calorias": 140,
-      "proteinas": "3.5g",
-      "gorduras": "8g",
-      "carboidratos": "14g",
-      "quantidade_porcao": "50g"
+      "calorias": 280,
+      "proteinas": "7g",
+      "gorduras": "16g",
+      "carboidratos": "28g",
+      "quantidade_porcao": "100g"
     },
     {
       "nome": "Manteiga",
@@ -546,11 +546,11 @@
     },
     {
       "nome": "Caldo de Carne (Em Pó)",
-      "calorias": 112,
-      "proteinas": "8g",
-      "gorduras": "6g",
-      "carboidratos": "4g",
-      "quantidade_porcao": "20g"
+      "calorias": 336,
+      "proteinas": "24g",
+      "gorduras": "12g",
+      "carboidratos": "12g",
+      "quantidade_porcao": "100g"
     },
     {
       "nome": "Molho de Tomate (Pronto)",
@@ -666,11 +666,11 @@
     },
     {
       "nome": "Salmão Defumado",
-      "calorias": 117,
-      "proteinas": "18g",
-      "gorduras": "5g",
+      "calorias": 234,
+      "proteinas": "36g",
+      "gorduras": "10g",
       "carboidratos": "0g",
-      "quantidade_porcao": "50g"
+      "quantidade_porcao": "100g"
     },
     {
       "nome": "Salame",
@@ -825,14 +825,6 @@
       "quantidade_porcao": "100ml"
     },
     {
-      "nome": "Chá Verde",
-      "calorias": 0,
-      "proteinas": "0g",
-      "gorduras": "0g",
-      "carboidratos": "0g",
-      "quantidade_porcao": "100ml"
-    },
-    {
       "nome": "Sopa Enlatada",
       "calorias": 70,
       "proteinas": "3g",
@@ -842,11 +834,11 @@
     },
     {
       "nome": "Caldo de Carne (tablete)",
-      "calorias": 35,
-      "proteinas": "1g",
-      "gorduras": "2g",
-      "carboidratos": "4g",
-      "quantidade_porcao": "10g"
+      "calorias": 350,
+      "proteinas": "10g",
+      "gorduras": "20g",
+      "carboidratos": "40g",
+      "quantidade_porcao": "100g"
     },
     {
       "nome": "Chocolate ao Leite",
@@ -897,5 +889,4 @@
       "quantidade_porcao": "100g"
     }
   ]
-  
 }

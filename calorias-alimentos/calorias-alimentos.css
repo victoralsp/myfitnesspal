@@ -78,6 +78,19 @@
     font-weight: bold;  
 }
 
+#erro-input-personalizado {
+    color: var(--cor-erro);
+    margin-top: .5em;
+    display: none;
+}
+
+#erro-input-personalizado.active {
+    display: block;
+}
+
+
+
+
 /* #alimentos:has(.alimentos-calorias:hover) .alimentos-calorias:not(:hover) {
     opacity: .4;
     scale: .98;
