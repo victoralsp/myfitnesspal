@@ -94,3 +94,8 @@
     max-width: 900px;
     padding: 3em 0;
 }
+
+#footer {
+    background-color: #fff !important;
+    margin-top: 2em;
+}

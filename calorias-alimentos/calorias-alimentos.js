@@ -1,8 +1,8 @@
-    // Pegando dados do json e mostrando na tela
+   // Pegando dados do json e mostrando na tela
 const divAlimentos = document.getElementById('alimentos')
 const inputBusca = document.getElementById('buscar-alimento')
 
-fetch('json/alimentos.json').then((resposta) => {
+fetch('/json/alimentos.json').then((resposta) => {
     return resposta.json()
 }).then((informacoes) => {
     informacoes.alimentos.map((listagem) => {
