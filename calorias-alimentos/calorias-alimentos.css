@@ -78,6 +78,24 @@
     font-weight: bold;  
 }
 
+.quantidade-porcao-variavel {
+    border: none;
+    border-bottom: 1px solid var(--cor-principal);
+    outline: none;
+    width: 70px;
+    padding: .3em 1em;
+    text-align: center;
+}
+
+.calcular-infos-alimento {
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    border-radius: 20px;
+    border: none;
+    padding: .5em 1em;
+    cursor: pointer;
+}
+
 #erro-input-personalizado {
     color: var(--cor-erro);
     margin-top: .5em;
@@ -88,13 +106,9 @@
     display: block;
 }
 
-
-
-
-/* #alimentos:has(.alimentos-calorias:hover) .alimentos-calorias:not(:hover) {
-    opacity: .4;
-    scale: .98;
-} */
+#alimentos:has(.alimentos-calorias:hover) .alimentos-calorias:not(:hover) {
+    opacity: .5;
+}
 
 #erros {
     color: var(--cor-erro);

@@ -63,9 +63,9 @@ fetch('/json/alimentos.json').then((resposta) => {
 
             // Alteração dos valores padrões pelos novos após o cálculo 
             alimentoItem.querySelector('.calorias').textContent = novoCalorias.toFixed(2)
-            alimentoItem.querySelector('.proteinas').textContent = novoProteinas.toFixed(2)
-            alimentoItem.querySelector('.gorduras').textContent = novoGorduras.toFixed(2)
-            alimentoItem.querySelector('.carboidratos').textContent = novoCarboidratos.toFixed(2)
+            alimentoItem.querySelector('.proteinas').textContent = `${novoProteinas.toFixed(2)}g`
+            alimentoItem.querySelector('.gorduras').textContent = `${novoGorduras.toFixed(2)}g`
+            alimentoItem.querySelector('.carboidratos').textContent = `${novoCarboidratos.toFixed(2)}g`
         })
     })
 
