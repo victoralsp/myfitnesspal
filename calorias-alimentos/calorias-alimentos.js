@@ -3,7 +3,7 @@ const divAlimentos = document.getElementById('alimentos')
 const inputBusca = document.getElementById('buscar-alimento')
 
 // Pegando dados do JSON 
-fetch('/json/alimentos.json').then((resposta) => {
+fetch('../json/alimentos.json').then((resposta) => {
     return resposta.json();
 }).then((informacoes) => {
     informacoes.alimentos.map((listagem) => {
