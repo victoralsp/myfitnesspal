@@ -1,3 +1,4 @@
+// Menu responsivo 
 const btnMenu = document.getElementById('menu-navbar')
 const navbar = document.getElementById('btn-e-login')
 menuAtivo = false
@@ -25,27 +26,6 @@ const myObserver = new IntersectionObserver((entries) => {
 
 const elements = document.querySelectorAll('.hidden')
 elements.forEach((element) => myObserver.observe(element))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // Modo noturno 
@@ -89,9 +69,28 @@ const altura = document.getElementById('altura')
 const peso = document.getElementById('peso')
 const btnCalcular = document.getElementById('btnCalcular')
 
-btnCalcular.addEventListener('click', ()=> {
-    if (altura.value !== '' && peso.value !== '') {
-        const imc = (peso.value / (altura.value * altura.value)).toFixed(2)
+btnCalcular.addEventListener('click', () => {
+    let alturaValue = altura.value
+    let pesoValue = peso.value
+
+    if(alturaValue === '' || isNaN(alturaValue)) {
+        resultado.innerHTML = 'Digite sua altura corretamente'
+        altura.style.border = '1px solid var(--cor-erro)'
+    } else {
+        resultado.innerHTML = ''
+        altura.style.border = '1px solid black'
+    }
+
+    if(pesoValue === '' || isNaN(pesoValue)) {
+        resultado.innerHTML = 'Digite seu peso corretamente'
+        peso.style.border = '1px solid var(--cor-erro)'
+    } else {
+        resultado.innerHTML = ''
+        peso.style.border = '1px solid black'
+    }
+
+    if (alturaValue !== '' && pesoValue !== '') {
+        const imc = (pesoValue / (alturaValue * alturaValue)).toFixed(2)
        let classificacao = ''
        if (imc < 18.5) {
            classificacao = 'Abaixo do peso'
@@ -106,8 +105,10 @@ btnCalcular.addEventListener('click', ()=> {
        }
 
        resultado.innerHTML = `IMC: ${imc} (${classificacao})`
+       resultado.style.color = 'var(--cor-principal)'
        }
        else {
            resultado.innerHTML = 'Verifique se os campos foram preenchidos corretamente.'
+           resultado.style.color = 'var(--cor-erro)'
        }
 })

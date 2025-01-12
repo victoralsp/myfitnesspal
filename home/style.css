@@ -246,10 +246,10 @@ html {
 #calc-imc {
     text-align: center;
     width: 43em;
-    height: 25em;
+    height: fit-content;
     box-shadow: 0px 0px 5px var(--cor-shadow-preto);
     border-radius: 20px;
-    padding: 3em 2em 20em 2em;
+    padding: 3em 2em;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -313,7 +313,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #resultado {
-    color: var(--cor-dark);
+    color: var(--cor-principal);
 }
 
 #section-receitas {
