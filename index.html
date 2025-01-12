@@ -6,7 +6,7 @@
     <title>MyFitnessPal | MyFitnessPal</title>
     <link rel="stylesheet" href="./home/style.css">
     <link rel="stylesheet" href="./home/mediaquery.css">
-    <link rel="stylesheet" href="./home/animation.css">
+    <!-- <link rel="stylesheet" href="./home/animation.css"> -->
     <link rel="shortcut icon" href="./imagens/logo.jpeg" type="image/jpeg">
     <script src="https://kit.fontawesome.com/05ac79b2f0.js" crossorigin="anonymous"></script>
 </head>
@@ -24,7 +24,7 @@
             </article>
         </header>
         <main id="main" class="bg-color-dark-mode">
-            <section id="section-comece">
+            <section id="section-comece" class="hidden">
                 <article class="section-comece_article">
                     <h1 id="title-comece" class="white-text-dark-mode">Uma boa saúde começa com o que você come.</h1>
                     <p id="paragrafo-comece" class="grey-text-dark-mode">Quer comer com mais atenção? Monitore refeições, aprenda sobre seus hábitos e alcance seus objetivos com o MyFitnessPal.</p>
@@ -32,36 +32,36 @@
                 </article>
                 <img src="./imagens/comida.png" alt="comida fit">
             </section>
-            <section id="section-registro-alimento">
+            <section id="section-registro-alimento" class="hidden">
                 <img src="./imagens/comida-calorias.png" alt="comida e caloria">
                 <article class="registroAnimation">
                     <h2 id="subtitle-registre" class="white-text-dark-mode">Registro de mais de 14 milhões de alimentos.</h2>
                     <p id="paragrafo-registre" class="grey-text-dark-mode">Veja um detalhamento de calorias e nutrientes, compare o tamanho das porções e descubra como os alimentos que você ingere apoiam seus objetivos.</p>
                 </article>
             </section>
-            <section id="section-ferramentas">
+            <section id="section-ferramentas" class="hidden">
                 <article id="section-ferramentas_article">
                     <h2 id="subtitle-ferramentas" class="white-text-dark-mode">As ferramentas para suas metas</h2>
                     <p id="paragrafo-ferramentas" class="grey-text-dark-mode">Está tentando perder peso, tonificar o corpo, reduzir seu IMC ou investir em sua saúde de modo geral? Nós fornecemos os recursos certos para chegar lá.</p>
                 </article>
                 <article id="ferramentas-metas">
-                    <div class="cardAnimation">
+                    <div class="cardAnimation hidden">
                         <img src="./imagens/diary.e6e4c438.svg" alt="diario" class="white-shadow-dark-mode">
                         <h3 class="subtitle-metas white-text-dark-mode">Aprenda. Acompanhe. Melhore.</h3>
                         <p class="grey-text-dark-mode">Manter um diário alimentar ajuda você a compreender seus hábitos, aumentando a probabilidade de atingir suas metas.</p>
                     </div>
-                    <div class="cardAnimation">
+                    <div class="cardAnimation hidden">
                         <img src="./imagens/barcode.18277ae4.svg" alt="barcode" class="white-shadow-dark-mode">
                         <h3 class="subtitle-metas white-text-dark-mode">Registros simplificados.</h3>
                         <p class="grey-text-dark-mode">Escaneie códigos de barras, salve refeições e receitas e usar ferramentas rápidas para um rápido e fácil acompanhamento alimentar.</p>
                     </div>
-                    <div class="cardAnimation">
+                    <div class="cardAnimation hidden">
                         <img src="./imagens/tenis.svg" alt="tenis" class="white-shadow-dark-mode">
                         <h3 class="subtitle-metas white-text-dark-mode">Não perca a motivação.</h3>
                         <p class="grey-text-dark-mode">Junte-se à maior Comunidade Fitness do mundo para obter conselhos, dicas e suporte em tempo integral.</p>
                     </div>
                 </article>
-                <article id="calc-imc" class="white-shadow-dark-mode">
+                <article id="calc-imc" class="white-shadow-dark-mode hidden">
                     <h2 class="white-text-dark-mode">Calcule seu IMC</h2>
                     <div class="divAltura">
                         <label for="altura" class="grey-text-dark-mode">Altura (m)</label>
@@ -79,25 +79,25 @@
                     <span id="resultado" class="grey-text-dark-mode"></span>
                 </article>
             </section>
-            <section id="section-receitas">
+            <section id="section-receitas" class="hidden">
                 <h2 class="white-text-dark-mode">Receitas e inspiração</h2>
                 <p class="grey-text-dark-mode">Obtenha receitas aprovadas por nutricionistas e dicas motivacionais de treinos de especialistas do MyFitnessPal.</p>
-                <div>
-                    <article id="receitaLeft" class="white-shadow-dark-mode article-receitas-cards">
+                <div id="cards-receitas">
+                    <article id="receitaLeft" class="white-shadow-dark-mode article-receitas-cards hidden">
                         <a href="#">
                             <img src="./imagens/breakfast-300-calories.png" alt="café da manhã">
                             <h3 class="white-text-dark-mode">15 cafés da manhã com menos de 300 calorias...</h3>
                             <p>Blog do MyFitnessPal</p>
                         </a>
                     </article>
-                    <article id="receitaCenter" class="white-shadow-dark-mode article-receitas-cards">
+                    <article id="receitaCenter" class="white-shadow-dark-mode article-receitas-cards hidden">
                         <a href="#">
                             <img src="./imagens/cheat-days.jpeg" alt="comidas não saudaveis">
                             <h3 class="white-text-dark-mode">O problema dos dias fora da dieta</h3>
                             <p>Blog do MyFitnessPal</p>
                         </a>
                     </article>
-                    <article id="receitaRight" class="white-shadow-dark-mode article-receitas-cards">
+                    <article id="receitaRight" class="white-shadow-dark-mode article-receitas-cards hidden">
                         <a href="#">
                             <img src="./imagens/getting-moving.png" alt="mulher correndo">
                             <h3 class="white-text-dark-mode">Guia essencial para não ficar parado</h3>
@@ -106,7 +106,7 @@
                     </article>
                 </div>
             </section>
-            <section id="section-conecte">
+            <section id="section-conecte" class="hidden">
                 <h2 class="white-text-dark-mode">Conecte-se com mais de 50 aplicativos.</h2>
                 <p class="grey-text-dark-mode">Vincule com facilidade sua conta do MyFitnessPal com aplicativos que oferecem suporte ao seu estilo de vida mais saudável. Não se trata apenas de calorias. Trata-se de se sentir melhor, melhorar sua aparência e viver bem.</p>
                 <img src="./imagens/img-apps2x.png" alt="">
