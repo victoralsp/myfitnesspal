@@ -57,6 +57,11 @@ const modoNoturno = () => {
 }
 
 btnNoturno.addEventListener('click', () => {
+    if (!noturno) {
+        btnNoturno.innerHTML = '<i class="fa-solid fa-sun"></i>'
+    } else {
+        btnNoturno.innerHTML = '<i class="fa-solid fa-moon"></i>'
+    }
     noturno = !noturno
     modoNoturno()
 })
